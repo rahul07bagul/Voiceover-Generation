@@ -8,7 +8,8 @@ This project utilizes the Kokoro Voice Model to generate high-quality AI voiceov
 - Frontend: React (with Framer Motion for animations)
 - Backend: Flask (handles text-to-speech processing)
 - Audio Processing: Combines multiple short audio clips into a seamless voiceover
-
+- https://huggingface.co/hexgrad/Kokoro-82M
+  
 ## Installation
 ### Prerequisites
 Ensure you have Python 3.8+ and Node.js installed on your system.
