@@ -1,0 +1,132 @@
+.header{
+    font-family: "Poppins", serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 0; /* Add this line */
+}
+
+.sub-header{
+    font-family: "Poppins", serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 0; /* Add this line */
+}
+
+.section-wrapper {
+    width: 100%;
+    padding: 0 20px 20px;
+}
+
+.content {
+    position: relative;
+    color: rgb(0, 0, 0);             
+    max-width: 800px;         
+    margin: 0 auto;          
+    display: flex;
+    flex-direction: column;
+    align-items: center;             
+}
+
+.input-box {
+    font-family: "Poppins", serif;
+    border: 1px solid rgb(220, 220, 220);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+    height: 300px; /* Set height */
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.text-input {
+    width: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    font-family: "Poppins", serif;
+    flex-grow: 1;
+}
+
+.text-input .MuiOutlinedInput-notchedOutline {
+    border: none;
+}
+
+.text-input .MuiInputBase-input {
+    padding: 0;
+}
+
+.controls {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    gap: 10px; /* Add space between elements */
+    justify-content: space-between;
+    width: 100%;
+    border-top: 1px solid rgb(220, 220, 220);
+    padding-top: 10px;
+}
+
+.select-voice {
+    font-family: "Poppins", serif !important; /* Set font for select component */
+    width: 150px; /* Reduced width */
+    border-radius: 20px; /* Add rounded corners */
+    height: 40px; /* Fixed height */
+    min-height: 40px; /* Ensure minimum height */
+}
+
+.select-voice .MuiOutlinedInput-root {
+    border-radius: 20px; /* Make Material-UI select component rounded */
+}
+
+.select-voice .MuiOutlinedInput-notchedOutline {
+    border-radius: 20px; /* Make the outline border rounded */
+}
+
+.select-voice .MuiSelect-select {
+    padding-left: 20px !important; /* Add left padding to select text */
+}
+
+.generate-button {
+    width: 120px; /* Reduced width */
+    height: 40px; /* Fixed height */
+    min-height: 40px; /* Ensure minimum height */
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Add styles for disabled state */
+.generate-button:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.MuiSelect-select {
+    padding: 8px !important; /* Reduce the internal padding of select */
+}
+
+.MuiButton-root {
+    padding: 6px 16px !important; /* Reduce the button padding */
+    text-transform: none !important; /* Optional: removes all-caps from button text */
+}
+
+/* For the menu items that appear in dropdown */
+.MuiMenuItem-root {
+    padding-left: 15px !important; /* Match padding for dropdown items */
+}
+
+.audio-player {
+  border-radius: 8px;
+  background: white;
+  padding: 5px;
+  height: 40px; /* Match height with other controls */
+  display: flex;
+  align-items: center;
+}
+
+.audio-player audio {
+  height: 40px; /* Smaller height for the audio element */
+}
