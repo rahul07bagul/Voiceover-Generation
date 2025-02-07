@@ -16,7 +16,7 @@ Ensure you have Python 3.8+ and Node.js installed on your system.
 ### Backend Setup (Flask Server)
 ### Step 1: Clone the Repository
 ```sh
-git clone https://github.com/MastodonTutorAI/v1.git
+git clone https://github.com/rahul07bagul/Voiceover-Generation.git
 cd voiceover-generation/server
 ```
 ### Step 2: Create a virtual environment 
